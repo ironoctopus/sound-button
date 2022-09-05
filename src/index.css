@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 10px;
+  border: 1px solid transparent;
+  padding: 0.5em 1em;
+  font-size: 3em;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia;
+  color: rgb(7, 7, 7);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #ddf5f7;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 2px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #bbd9f4;
+    background-color: #e1f7fb;
+  }
+  a:hover {
+    color: #d8d9ee;
+  }
+  button {
+    background-color:rgb(236, 64, 233);
+  }
+}
