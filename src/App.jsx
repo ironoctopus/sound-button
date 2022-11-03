@@ -3,9 +3,7 @@ import './App.css';
 import {useState, useEffect} from 'react';
 
 function App() {
-
   const [value, setValue] = useState(0);
-
   useEffect(()=>{
     play()
   }, [value]);
@@ -21,7 +19,6 @@ function App() {
     Play
    </button>
    </div>
-  )
-}
+  )}
 
 export default App
